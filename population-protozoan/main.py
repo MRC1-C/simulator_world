@@ -34,10 +34,10 @@ if __name__ == '__main__':
     #     t.append(Thread(target=run, args=(i,)))
     # for i in t:
     #     i.start()
-    run('D',3)
-    # for i in range(5,10):
-    #     for j in t:
-    #         run(j,i)
+    # run('D',3)
+    for i in range(1,10):
+        for j in t:
+            run(j,i)
         # i.join()
     # for i in t:
         # i.start()
