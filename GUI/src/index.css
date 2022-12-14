@@ -1,0 +1,27 @@
+@tailwind components;
+@tailwind utilities;
+@tailwind base;
+@font-face {
+  font-family: "Quicksand";
+  src: local("Quicksand"),
+    url(./fonts/Quicksand/Quicksand-VariableFont_wght.ttf) format("truetype");
+}
+:root {
+  font-family: Quicksand, Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 21px;
+  line-height: 24px;
+  font-weight: 500;
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  font-family: Quicksand, sans-serif;
+  margin: 0;
+  padding: 0;
+}
