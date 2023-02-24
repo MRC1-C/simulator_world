@@ -62,9 +62,22 @@ const Headers = () => {
       className="site-layout-background"
       style={{
         padding: 0,
+        backgroundColor: "rosybrown",
+
+        display: "flex",
+        flexDirection: "row",
+        padding: 4,
+        justifyContent: "space-between",
+        alignItems: "center",
       }}
     >
-      <Button type="primary" onClick={showModal}>
+      <div style={{ width: 50, backgroundColor: "black", height: "90%" }}></div>
+      <div
+        style={{ width: 200, backgroundColor: "blue", height: "100%" }}
+      ></div>
+      <div style={{ width: 50, backgroundColor: "red", height: "80%" }}></div>
+
+      {/* <Button type="primary" onClick={showModal}>
         Plot
       </Button>
       <Modal
@@ -76,7 +89,7 @@ const Headers = () => {
         bodyStyle={{ height: "50vh", overflow: "auto" }}
       >
         <canvas style={{ height: 500, width: 1000 }} ref={plot}></canvas>
-      </Modal>
+      </Modal> */}
     </Header>
   );
 };

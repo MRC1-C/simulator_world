@@ -35,9 +35,9 @@ if __name__ == '__main__':
     # for i in t:
     #     i.start()
     # run('D',3)
-    for i in range(1,10):
-        for j in t:
-            run(j,i)
+    # for i in range(1,10):
+        # for j in t:
+    run('D',1)
         # i.join()
     # for i in t:
         # i.start()

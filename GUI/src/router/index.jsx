@@ -9,6 +9,7 @@ import Bee from "../pages/Bee";
 import Blog from "../pages/Blog";
 import BlogDetail from "../pages/BlogDetail";
 import Home from "../pages/Home";
+import Test from "../pages/Test";
 import Tom from "../pages/Tom";
 import User from "../pages/User";
 
@@ -85,5 +86,13 @@ export const PUBLIC_ROUTER = [
     children: null,
     path: "bee",
     element: <Bee />,
+  },
+  {
+    label: "Test",
+    key: "test",
+    icon: <FileOutlined />,
+    children: null,
+    path: "test",
+    element: <Test />,
   },
 ];

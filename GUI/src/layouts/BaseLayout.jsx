@@ -13,9 +13,9 @@ const BaseLayout = () => {
         height: "100vh",
       }}
     >
-      <Sibar />
+      {/* <Headers /> */}
       <Layout style={{ overflow: "auto" }}>
-        {/* <Headers /> */}
+        <Sibar />
         <Content
           style={{
             overflow: "auto",
@@ -25,7 +25,7 @@ const BaseLayout = () => {
             className="site-layout-background"
             style={{
               // padding: 24,
-            //   minHeight: 360,
+              //   minHeight: 360,
               height: "100%",
               // backgroundColor: 'red'
             }}
